@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .wrapper{
+      width: 90%;
+      max-width: 1350px;
+      margin:0 auto;
+  }
+  ul{
+      list-style: none;
+      margin-top:4%;
+  }
+
+  @font-face {
+    font-family: 'poppinssemibold';
+    src: url('../font/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../font/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  
+  
+  @font-face {
+      font-family: 'poppinsbold';
+      src: url('../font/poppins-bold-webfont.woff2') format('woff2'),
+           url('../font/poppins-bold-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+      font-family: 'poppinsmedium';
+      src: url('../font/poppins-medium-webfont.woff2') format('woff2'),
+           url('../font/poppins-medium-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+      font-family: 'poppinsregular';
+      src: url('../font/poppins-regular-webfont.woff2') format('woff2'),
+           url('../font/poppins-regular-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  h1{
+    font-family:'poppinsbold'; 
+  }
+ 
+header{
+    height: 90px;
+    background-color:#f7f8ff;
+}
+.event{
+    margin-top: 7%;
+}
+.head{
+    width:30%;
+    margin-left: 33%;
+    margin-bottom:5%;
+    border-radius: 7px;
+}
+.head h1{
+  text-align: center;
+  margin:5%;
+  margin-left:0%;
+  font-size: 39px;
+  color:#41447d; 
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+p{
+    text-align:center;
+    margin-left: 17.5%;
+    margin-right:21%;
+    color: #999;
+    font-family:'poppinsregular';
+}
+.gallery{
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+.gallery .wrapper h3{
+    margin-left: 29%;
+    font-size: 25px;
+    color: #41447d;
+    font-family: 'poppinssemibold';
+}
+.gallery .wrapper div{
+    margin-top:5%;
+}
+h5{
+   margin-left: 7%;
+   font-size:17px;
+   font-family: 'poppinsmedium';
+}
+.gallery .wrapper ul li {
+    margin:17px;
+    width:30%;
+}
+.gallery .wrapper ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left:2%;
+}
+.gallery .wrapper ul li img{
+    width: 95%;
+      border-radius: 15px;
+}
+.footer{
+    height:260px; 
+    width:100%;
+    background-color:#41447d;
+ }
+@media all and (max-width:1280px){
+    p{
+        margin-left:11%;
+        margin-right:11%;
+    }
+    .head{
+        margin-left: 34%;
+    }
+}
+@media all and (max-width:1220px){
+    p{
+        margin-left:16%;
+        margin-right:16%;
+    }
+    .head{
+        margin-left: 34.5%;
+    }
+}
+@media all and (max-width:1180px){
+    p{
+        margin-left:16%;
+        margin-right:16%;
+    }
+    .head{
+        margin-left: 34.5%;
+    }
+    
+}
+@media all and (max-width:1120px){
+    p{
+        margin-left:16%;
+        margin-right:16%;
+    }
+    .head{
+        margin-left: 34.5%;
+    }
+    .gallery .wrapper ul li {
+        margin-left: 0px;
+    }
+    
+}
+@media all and (max-width:1024px){
+    p{
+        margin-left:16%;
+        margin-right:16%;
+    }
+    .head{
+        margin-left: 34.5%;
+    }
+    .gallery .wrapper ul li {
+        margin-left: 0px;
+    }
+    
+}
+@media all and (max-width:768px){
+    p{
+        margin-left:13.5%;
+        margin-right:13%;
+    }
+    .head{
+        margin-left: 34.5%;
+    }
+    .gallery .wrapper ul li{
+        width: 40%;
+    }
+    .gallery .wrapper ul {
+      margin-left:4%;
+    }
+
+    .gallery .wrapper ul li img{
+        width:100%;
+    }
+    h5{
+        font-size:14px;
+    }
+}
+@media all and (max-width:425px){
+    p{
+        margin-left:11%;
+        margin-right:11%;
+
+    }
+    .head h1{
+        font-size: 30px;
+    }
+    .gallery .wrapper ul li{
+        width: 95%;
+        margin-left: 0;
+    }
+    .gallery .wrapper ul {
+      margin-left:4%;
+    }
+
+    .gallery .wrapper ul li img{
+        width:100%;
+    }
+    .gallery .wrapper h3{
+        font-size: 20px;
+        margin-top:10% ;
+    }
+    h5{
+        font-size:13px;
+        margin-left: 4%;
+        margin-top:9%
+    }
+}
+@media all and (max-width:375px){
+    p{
+        margin-left:11%;
+        margin-right:11%;
+
+    }
+    .head h1{
+        font-size: 30px;
+    }
+    .gallery .wrapper ul li{
+        width: 95%;
+        margin-left: 0;
+    }
+    .gallery .wrapper ul {
+      margin-left:4%;
+    }
+
+    .gallery .wrapper ul li img{
+        width:100%;
+    }
+    .gallery .wrapper h3{
+        font-size: 20px;
+        margin-top:10% ;
+    }
+    h5{
+        font-size:13px;
+        margin-left: 4%;
+        margin-top:9%
+    }
+}
+@media all and (max-width:320px){
+    p{
+        margin-left:10%;
+        margin-right:10%;
+
+    }
+    .head h1{
+        font-size: 30px;
+        margin-left:-3px;
+    }
+    .gallery .wrapper ul li{
+        width: 95%;
+        margin-left: 2%;
+    }
+    .gallery .wrapper ul {
+      margin-left:4%;
+    }
+
+    .gallery .wrapper ul li img{
+        width:100%;
+    }
+    .gallery .wrapper h3{
+        font-size: 20px;
+        margin-top:10% ;
+        margin-left:20%;
+    }
+    h5{
+        font-size:13px;
+        margin-left: 4%;
+        margin-top:9%
+    }
+}
